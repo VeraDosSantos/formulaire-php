@@ -4,16 +4,25 @@ $users = [
         'name' => 'John Doe',
         'email' => 'john.doe@example.com',
         'age' => 30,
+        'password' => '1234'
     ],
     [
         'name' => 'Jane Smith',
         'email' => 'jane.smith@example.com',
         'age' => 25,
+        'password' => '1234'
     ],
     [
         'name' => 'Mike Johnson',
         'email' => 'mike.johnson@example.com',
         'age' => 35,
+        'password' => '1234'
+    ],
+    [
+        'name' => 'Vera',
+        'email' => 'vera@lepoles.org',
+        'age' => 32,
+        'password' => '1234'
     ]
 ];
 $products = [

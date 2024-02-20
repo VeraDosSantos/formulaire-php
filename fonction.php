@@ -1,6 +1,5 @@
 <?php
 
-
 function ShowActiveProducts($products)
 {
     $activeProducts = [];
@@ -11,6 +10,7 @@ function ShowActiveProducts($products)
     }
     return $activeProducts;
 }
+
 function getProducts($products)
 {
     foreach ($products as $product) {
@@ -19,6 +19,7 @@ function getProducts($products)
         echo "Statut : " . ($product['is_enabled'] ? "Activé" : "Désactivé") . "<br><br>";
     }
 }
+
 function isActiveProduct($product)
 {
     if (array_key_exists('is_enabled', $product)) {
@@ -28,6 +29,7 @@ function isActiveProduct($product)
     }
     return $isEnabled;
 }
+
 function getUsers($users)
 {
     foreach ($users as $user) {
